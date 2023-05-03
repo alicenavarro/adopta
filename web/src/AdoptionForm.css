@@ -12,7 +12,7 @@ header{
 form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
   }
   
@@ -22,10 +22,11 @@ form {
   
   input,
   select {
-    padding: 5px;
+    padding: 15px;
     border: none;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
+    width: 250px;
   }
   
   button[type="submit"] {
@@ -41,7 +42,7 @@ form {
   }
   
   button[type="submit"]:hover {
-    background-color: #077187;
+    background-color: #073470;
     text-align: center;
     position:-ms-page;
   }
@@ -85,3 +86,17 @@ form {
     flex-direction: column;
   }
   
+  // en un archivo CSS separado, por ejemplo, steps.css
+.ant-steps {
+  margin: 20px 0;
+}
+
+.ant-steps-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ant-steps-item-title {
+  margin-top: 8px;
+}

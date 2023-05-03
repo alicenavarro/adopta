@@ -3,15 +3,22 @@ import AdoptionForm from './AdoptionForm';
 import './App.css';
 import Layout from './Layout';
 
+
 const App: React.FC = () => {
   const [showForm, setShowForm] = React.useState(false);
 
   const handleAdoptionSubmit = (data: {
-    name: string;
-    email: string;
-    phone: string;
-    address: string;
-    petType: string;
+    nombre: string;
+    dni:string;
+    mail: string;
+    telefono: string;
+    direccion: string;
+    tipoanimal: string;
+    raza:string;
+    edad:string;
+    tenido:String;
+    nacimiento:String;
+
   }) => {
     console.log(data);
     setShowForm(false);
