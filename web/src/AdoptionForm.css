@@ -1,0 +1,87 @@
+header{
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  select {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #073470;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #077187;
+    text-align: center;
+    position:-ms-page;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  .left-sider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-image: url(dog.png);
+    background-size: cover;
+  }
+  
+  .right-sider {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background-image: url(dog.png);
+    background-size: cover;
+  }
+  
+  h1{
+    display: flex;
+    font-display:swap;
+    position:relative;
+    text-align: center;
+    text-overflow: initial;
+    flex-shrink: 8;
+    flex-direction: column;
+  }
+  
