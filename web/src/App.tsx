@@ -8,16 +8,24 @@ const App: React.FC = () => {
   const [showForm, setShowForm] = React.useState(false);
 
   const handleAdoptionSubmit = (data: {
-    nombre: string;
-    dni:string;
-    mail: string;
-    telefono: string;
-    direccion: string;
-    tipoanimal: string;
-    raza:string;
-    edad:string;
-    tenido:String;
-    nacimiento:String;
+nombre: string;
+dni:string;
+mail: string;
+telefono: string;
+direccion: string;
+tipoanimal: string;
+raza:string;
+edad:string;
+tenido:string;
+nacimiento:string;
+niños2:string;
+niños:string;
+gatocasa:string;
+gatocasa2:string;
+gatocaracter:string;
+gatocaracter2:string;
+interes:string;
+interes2:string;
 
   }) => {
     console.log(data);
